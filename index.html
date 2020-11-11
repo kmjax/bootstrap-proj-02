@@ -35,14 +35,12 @@
     />
   </head>
   <body>
-    <!-- **** NOTE: I think I am going to JUNK the whole NAVBAR and instead just create a better header... -->
-
     <!-- Navagation Bar --------------------------------->
     <nav class="navbar navbar-expand-md navbar-dark bistros-navbar">
       <!-- Brand -->
       <a class="navbar-brand" href="#"
-        ><i class="fas fa-glass-cheers bistros-icon"></i>&nbsp;&nbsp;<span
-          class="bistros-font"
+        ><i class="fas fa-glass-cheers bistros-icon"></i> &nbsp;&nbsp;<span
+          class="bistros-font-navbar"
           >Bistros</span
         ></a
       >
@@ -86,11 +84,18 @@
         <div class="container">
           <div class="row" id="top-area">
             <div class="col-md-12">
-              <div class="row">
-                <h2>Voted Best New Restaurant in Jacksonville!</h2>
-              </div>
-              <div class="row">
-                <button class="btn btn-success" id="learn-more-btn">
+              <div
+                class="row"
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                "
+              >
+                <h2 class="bistros-font-h2">
+                  Voted Best New Restaurant in Jacksonville!
+                </h2>
+                <button class="btn btn-success" id="order-online-btn">
                   Order Online
                 </button>
               </div>
@@ -101,22 +106,22 @@
 
           <div class="row">
             <div class="col-md-12">
-              <h3>Our Menus</h3>
+              <h2 class="bistros-font-h2" style="text-align: center;">Our Menus</h3>
             </div>
           </div>
 
           <div class="row" id="middle-area">
             <div class="col-md-4 bottom-box">
-              <i class="fas fa-spider pet-icon"></i>
-              <h3>Breakfast</h3>
+              <img class="food-image" src="images/breakfast.jpg" alt="Breakfast plate of food" />
+              <h3 class="bistros-font-h3">Breakfast</h3>
             </div>
             <div class="col-md-4 bottom-box">
-              <i class="fas fa-crow pet-icon"></i>
-              <h3>Lunch</h3>
+              <img class="food-image" src="images/lunch.jpg" alt="Lunch plate of food" />
+              <h3 class="bistros-font-h3">Lunch</h3>
             </div>
             <div class="col-md-4 bottom-box">
-              <i class="fas fa-cat pet-icon"></i>
-              <h3>Dinner</h3>
+              <img class="food-image" src="images/dinner.jpg" alt="Dinner plate of food" />
+              <h3 class="bistros-font-h3">Dinner</h3>
             </div>
           </div>
 

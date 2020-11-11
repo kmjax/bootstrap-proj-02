@@ -11,9 +11,19 @@ body {
   font-size: 40px;
 }
 
-.bistros-font {
+.bistros-font-navbar {
   font-family: "Courgette", cursive;
   font-size: 42px;
+}
+
+.bistros-font-h2 {
+  font-family: "Courgette", cursive;
+  font-size: 36px;
+}
+
+.bistros-font-h3 {
+  font-family: "Courgette", cursive;
+  font-size: 24px;
 }
 
 #top-area {
@@ -23,26 +33,33 @@ body {
   justify-content: space-between;
 }
 
-#learn-more-btn {
+#order-online-btn {
   background-color: seagreen;
-}
-
-#pet-image {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 200px;
   border-radius: 25px;
-  box-shadow: 2px 2px 5px seagreen;
-  margin-left: 20px;
-  height: 300px;
+  border: 2px solid black;
 }
 
 #middle-area {
   text-align: center;
-  margin-top: 75px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.food-image {
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px seagreen;
+  margin: 5px;
+  height: 200px;
+  width: 300px;
 }
 
 #bottom-area {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
   padding: 10px;
 }
 
