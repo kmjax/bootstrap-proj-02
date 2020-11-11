@@ -1,0 +1,50 @@
+body {
+  background-color: honeydew;
+  padding: 25px;
+}
+
+.bistros-navbar {
+  background-color: seagreen;
+}
+
+#top-area {
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#learn-more-btn {
+  background-color: seagreen;
+}
+
+#pet-image {
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px seagreen;
+  margin-left: 20px;
+  height: 300px;
+}
+
+#middle-area {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+#bottom-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.bottom-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pet-icon {
+  font-size: 50px;
+  color: seagreen;
+  margin-bottom: 15px;
+}
