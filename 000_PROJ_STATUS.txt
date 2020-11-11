@@ -1,1 +1,6 @@
-Nearing completion! Just need to finish the bottom section. (Footer is done).
+Finished; however, it could use some fine-tuning when resizing the window.
+
+Issues: 
+A) the navbar items need to be refined
+B) the menu item photos overlap a little before they get small enough to collapse down to a single column
+
