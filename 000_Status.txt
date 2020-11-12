@@ -1,6 +1,6 @@
-Finished; however, it could use some fine-tuning when resizing the window.
+About 99% Finished as 2020-11-11; however, it could use some fine-tuning when resizing the window.
 
-Issues: 
+Refinement Opportunities: 
 A) the navbar items need to be refined
 B) the menu item photos overlap a little before they get small enough to collapse down to a single column
 
