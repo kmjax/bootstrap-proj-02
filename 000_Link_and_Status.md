@@ -9,12 +9,11 @@
 
 #### STATUS
 
-About 95% Finished as 2020-11-12; however, it could use some fine-tuning when resizing the window.
+Considered complated on 2020-11-14
 
-Refinement Opportunities:
+Refinement Opportunity (but will not be done):
 
-* navbar items need to be refined
-* menu item photos overlap a little before they get small enough to collapse down to a single column
+* navbar items need to be refined so that text separators do not appear in the link drop down menu. This is an excersize for another day!
 
 
 #### SOURCE

@@ -26,6 +26,10 @@ body {
   font-size: 24px;
 }
 
+#navbar-phone {
+  color: #e0f8e0;
+}
+
 hr {
   border: 1px solid seagreen;
 }
@@ -55,6 +59,7 @@ hr {
 .food-box {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
